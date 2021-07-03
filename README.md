@@ -21,5 +21,5 @@ For more information on the full course, visit __[ui.dev/react-router-v6](https:
 
 ### Other Verions
 
-[Server Rendering with React Router v4](https://github.com/uidotdev/rrssr-v4)
-[Server Rendering with React Router v5](https://github.com/uidotdev/react-router-v5-server-rendering)
+- [Server Rendering with React Router v4](https://github.com/uidotdev/rrssr-v4)
+- [Server Rendering with React Router v5](https://github.com/uidotdev/react-router-v5-server-rendering)
