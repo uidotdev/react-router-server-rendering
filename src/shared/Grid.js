@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { useParams } from 'react-router-dom'
 
-export default function Grid ({ fetchInitialData, serverData }) {
+export default function Grid ({ fetchInitialData, data }) {
   const [repos, setRepos] = React.useState(() => {
     return __isBrowser__
       ? window.__INITIAL_DATA__
-      : serverData
+      : data
   })
 
   const [loading, setLoading] = React.useState(

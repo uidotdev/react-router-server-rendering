@@ -18,7 +18,7 @@ export default function App ({ serverData=null }) {
             <Route
               key={path}
               path={path}
-              element={<C serverData={serverData} fetchInitialData={fetchInitialData} />}
+              element={<C data={serverData} fetchInitialData={fetchInitialData} />}
             />
           ))}
           <Route path='*' element={<NoMatch />} />
